@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
 
-Smart contract Part done by using [Solidity] and [Hardhat]
+Smart contract Part done by using [Solidity](https://docs.soliditylang.org/en/v0.8.12/),  [Hardhat](https://hardhat.org/) and [Ethers.js](https://docs.ethers.io/v5/) .
 
 ## About
 

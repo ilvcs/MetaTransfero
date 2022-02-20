@@ -1,3 +1,7 @@
+/**
+ * Index page that consist of all components in singe page
+ * 
+ */
 import Head from 'next/head'
 import Image from 'next/image'
 import { Footer, Hero, Navbar, Transactions } from '../components'

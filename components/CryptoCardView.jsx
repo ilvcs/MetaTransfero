@@ -1,3 +1,11 @@
+/**
+ * Showes the ETH card and showes the balance on in
+ * 1. Checks and updates the user balance
+ * 2. Creates a multicolor card to show the Chain that has selected and 
+ * the balance that the user having on that chain
+ * to make user aware of his remining balance just like 
+ * in the bank account.
+ */
 import { Flex, Box, HStack, Spacer, Text, VStack } from '@chakra-ui/react'
 import React, { useContext, useEffect } from 'react'
 import { FaEthereum, FaInfoCircle } from 'react-icons/fa'

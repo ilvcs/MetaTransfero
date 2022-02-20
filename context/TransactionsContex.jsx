@@ -1,4 +1,8 @@
-import React, { useCallback, useEffect, useMemo, useState } from 'react'
+/**
+ * Context provider to add the web3 fuctionality to the app.
+ * This consits all function for fetching and transactions on the blockchain.
+ */
+import React, { useEffect, useState } from 'react'
 import { ethers } from 'ethers'
 
 import { contractABI, contractAddress } from '../utils/constants'

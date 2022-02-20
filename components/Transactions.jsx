@@ -1,3 +1,10 @@
+/**
+ * Shows all transactions that the user have made 
+ * 1. Fetches user transactions from the black chain 
+ * 2. Presents the user transactions in small boxes 
+ * 3. Shows The transaction amount and to address and the message for the 
+ *    transaction 
+ */
 import { Flex, Text, VStack, Wrap } from '@chakra-ui/react'
 import React, { useEffect, useContext } from 'react'
 import { TransactionContext } from '../context/TransactionsContex'
@@ -21,7 +28,7 @@ const Transactions = () => {
         boxShadow={20}
       >
         <VStack w="full" h="full" align="start" p={2}>
-          <Text color="white" fontSize="xs">{`${transaction.timeStamp}`}</Text>
+          {/* <Text color="white" fontSize="xs">{`${transaction.timeStamp}`}</Text> */}
 
           <Text color="white" fontSize="sm">{`Sent To:  ${shortenAddress(
             transaction.addressTo,

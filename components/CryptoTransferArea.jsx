@@ -1,3 +1,10 @@
+/**
+ * This is the main active area where user can send Cryto assets to anyone 
+ * in the world, 
+ * Form will accep the amount of the ether user wants to send and to address
+ * for which user wants to send the ether to and the message to 
+ * register and stored in the block chain.
+ */
 import { VStack, Flex, Input, Button, Text } from '@chakra-ui/react'
 import React, { useContext } from 'react'
 import { TransactionContext } from '../context/TransactionsContex'

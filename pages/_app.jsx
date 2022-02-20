@@ -1,7 +1,11 @@
+/**
+ * Adds the functionality of Transaction detection and Chakra
+ * by surrounding the component by TransactionProvider and Chakra Provider
+ */
 import Head from 'next/head'
 import { ChakraProvider } from '@chakra-ui/react'
 import { TransactionProvider } from '../context/TransactionsContex'
-function MyApp({ Component, pageProps }) {
+const MyApp = ({ Component, pageProps }) => {
   return (
     <TransactionProvider>
       <ChakraProvider>

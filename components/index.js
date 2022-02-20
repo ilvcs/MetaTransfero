@@ -1,3 +1,6 @@
+/**
+ * To easyly export the components
+ */
 export { default as Navbar } from './Navbar'
 export { default as Footer } from './Footer'
 export { default as Transactions } from './Transactions'
